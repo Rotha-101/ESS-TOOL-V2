@@ -3,13 +3,13 @@
   "author": "CHEA Rotha",
   "description": "Energy Storage System Data Visualization Toolbox",
   "private": true,
-  "version": "1.0.3",
+  "version": "1.0.0",
   "type": "module",
   "build": {
     "appId": "com.esstoolbox.v1.rotha",
     "productName": "ESS Toolbox V1",
     "directories": {
-      "output": "dist-electron-v2"
+      "output": "Release"
     },
     "files": [
       "dist/**/*",
@@ -91,3 +91,4 @@
   },
   "main": "electron/main.cjs"
 }
+
